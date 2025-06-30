@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>XDKRAME</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      background: #000;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    a { color: #1DB954; text-decoration: none; }
+    header {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: radial-gradient(circle, rgba(255,255,255,0.05) 1px, transparent 1px),
+                  #000;
+      background-size: 20px 20px;
+      text-align: center;
+      padding: 50px 20px;
+    }
+    header h1 {
+      font-size: 3rem;
+      letter-spacing: 4px;
+    }
+    .buttons a {
+      margin: 0 10px;
+      padding: 12px 24px;
+      border: 2px solid #fff;
+      border-radius: 4px;
+      transition: background .3s;
+    }
+    .buttons a:hover { background: rgba(255,255,255,0.1); }
+    main {
+      padding: 40px 20px;
+      flex: 2;
+    }
+    section { margin-bottom: 40px; }
+    #music iframe {
+      width: 100%;
+      max-width: 500px;
+      height: 152px;
+      border: none;
+    }
+    footer {
+      padding: 20px;
+      text-align: center;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div>
+      <h1>XDKRAME</h1>
+      <div class="buttons">
+        <a href="https://open.spotify.com/artist/2rtDohKQJXF4e7iItCrPqW?si=8D9E_LYLT7-1AXu8sDDhMw" target="_blank">Spotify</a>
+        <a href="https://music.apple.com/us/artist/xdkrame/1823575475" target="_blank">Apple Music</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About</h2>
+      <p>18‑year‑old artist from Ohio trying to chase a dream and put his people on the map.</p>
+    </section>
+
+    <section id="music">
+      <h2>Latest Single — “FTB”</h2>
+      <iframe allow="autoplay *; encrypted-media *;" src="https://embed.music.apple.com/us/album/ftb/1823646609?i=1823646610"></iframe>
+    </section>
+
+    <section id="connect">
+      <h2>Connect</h2>
+      <p><a href="https://www.instagram.com/co.rame?igsh=bWJuc2hoMm9sMmFk&utm_source=qr" target="_blank">@co.rame on Instagram</a></p>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 XDKRAME. All Rights Reserved.
+  </footer>
+</body>
+</html>
